@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#B2212121</color>
+    <color name="colorPrimaryDark">#B20C0C0C</color>
+    <color name="colorAccent">#008f24</color>
+    <color name="colorHighLighted">#C4c4c4</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="toolbar_color_control_normal">#000000</color>
+
+
+    <color name="purple_200">#772DE1</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
