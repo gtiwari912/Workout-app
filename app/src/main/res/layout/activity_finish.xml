@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="done"
     android:orientation="vertical"
     tools:context=".FinishActivity">
 
@@ -63,6 +64,4 @@
         android:backgroundTint="@color/colorAccent"
         android:textColor="#ffffff"
         android:textSize="18sp"/>
-
-
 </LinearLayout>
