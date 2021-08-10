@@ -3,12 +3,13 @@ package com.gaurav.a7minutesworkout
 import androidx.core.graphics.rotationMatrix
 
 class Constants {
+
     companion object{
         fun defaultExerciseList():ArrayList<ExerciseModel>{
             val exerciseList = ArrayList<ExerciseModel>()
             val jumpingJack =ExerciseModel(1,"Jumping Jack",R.drawable.ic_jumping_jacks,false,false)
             exerciseList.add(jumpingJack)
-            val wallSit = ExerciseModel(2,"WallSit",R.drawable.ic_wall_sit,false,false)
+            val wallSit = ExerciseModel(2,"Wall Sit",R.drawable.ic_wall_sit,false,false)
             exerciseList.add(wallSit)
             val pushup = ExerciseModel(3,"Push up",R.drawable.ic_push_up,false,false)
             exerciseList.add(pushup)
@@ -28,7 +29,7 @@ class Constants {
             exerciseList.add(lunges)
             val pushUpAndRotation= ExerciseModel(11,"Pushup and Rotation",R.drawable.ic_push_up_and_rotation,false,false)
             exerciseList.add(pushUpAndRotation)
-            val sidePlank=ExerciseModel(12,"SidePlank",R.drawable.ic_side_plank,false,false)
+            val sidePlank=ExerciseModel(12,"Side Plank",R.drawable.ic_side_plank,false,false)
             exerciseList.add(sidePlank)
             return exerciseList
         }
